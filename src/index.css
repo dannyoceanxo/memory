@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.memoryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50%
+}
+
+.memoryGame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2em;
+  width: 400px;
+  height: 400px;
+}
+
+.memoryRow {
+  width: 400px;
+  margin: 0;
+}
+
+.memoryBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2em;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgb(65, 236, 44);
+}
+
+.matched {
+  background-color: red;
+}
+
+.hidden:not(.matched) {
+  display: none;
+}
+
+.snatch {
+  background-image: url('./img/snatch.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.squat {
+  background-image: url('./img/squat.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.handstand {
+  background-image: url('./img/handstand.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.doubleunder {
+  background-image: url('./img/doubleunder.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.wallball {
+  background-image: url('./img/wallball.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.pullup {
+  background-image: url('./img/pullup.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.muscleup {
+  background-image: url('./img/muscleup.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
+
+.boxjump {
+  background-image: url('./img/boxjump.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+}
