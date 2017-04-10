@@ -44,7 +44,7 @@ class App extends Component {
       this.setState({
         picks: []
       })
-    }, 2000)
+    }, 1000)
   }
 
   render() {
