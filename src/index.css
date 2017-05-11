@@ -48,8 +48,16 @@ body {
   background-color: gray;
 }
 
+.memoryBox > div {
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
 .matched {
-  background-color: red;
+  opacity: 0.25;
 }
 
 .hidden:not(.matched) {
@@ -58,72 +66,32 @@ body {
 
 .snatch {
   background-image: url('./img/snatch.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
 
 .squat {
   background-image: url('./img/squat.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
 
 .handstand {
   background-image: url('./img/handstand.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
 
 .doubleunder {
   background-image: url('./img/doubleunder.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
 
 .wallball {
   background-image: url('./img/wallball.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
 
 .pullup {
   background-image: url('./img/pullup.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
 
 .muscleup {
   background-image: url('./img/muscleup.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
 
 .boxjump {
   background-image: url('./img/boxjump.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 8em;
-  height: 150px;
 }
